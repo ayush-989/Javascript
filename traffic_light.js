@@ -11,3 +11,19 @@ else if(light == "red"){
 else{
     console.log("Invalid light")
 }
+
+// using switch case
+switch(light){
+    case"green":
+        console.log("Go")
+        break;
+    case"yellow":
+        console.log("Slow down")
+        break;
+    case"red":
+        console.log("Stop")
+        break;
+    default:
+        console.log("Invalid light")
+  
+}
