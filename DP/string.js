@@ -17,7 +17,6 @@ var minimumDeleteSum = function(s1, s2) {
         dp[0][j] = dp[0][j - 1] + s2.charCodeAt(j - 1);
     }
 
-    // Fill DP table
     for (let i = 1; i <= n; i++) {
         for (let j = 1; j <= m; j++) {
             if (s1[i - 1] === s2[j - 1]) {
